@@ -1,0 +1,78 @@
+# Site settings
+title: AWS MCP Servers Tutorial
+description: >-
+  Comprehensive guide for AWS Model Context Protocol (MCP) Servers - Installation,
+  real-world examples, and best practices for integrating AWS services with Claude Code.
+url: "https://vanhoangkha.github.io"
+baseurl: "/aws-mcp-tutorial"
+repository: vanhoangkha/aws-mcp-tutorial
+
+# Build settings
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  examples:
+    output: true
+    permalink: /examples/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "examples"
+    values:
+      layout: "default"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Quick Start
+    url: /QUICKSTART
+  - title: Blog
+    url: /blog
+  - title: FAQ
+    url: /FAQ
+  - title: Comparison
+    url: /MCP-SERVERS-COMPARISON
+  - title: Examples
+    url: /examples/
+
+# SEO
+author: vanhoangkha
+twitter:
+  username: vanhoangkha
+social:
+  name: Kha Van Hoang
+  links:
+    - https://github.com/vanhoangkha
+
+# Analytics (optional - user can add later)
+# google_analytics: UA-XXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - .git
+  - .gitignore
+  - COMMANDS.sh
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .env.example

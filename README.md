@@ -3,11 +3,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/vanhoangkha/aws-mcp-tutorial?style=social)](https://github.com/vanhoangkha/aws-mcp-tutorial/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/vanhoangkha/aws-mcp-tutorial)](https://github.com/vanhoangkha/aws-mcp-tutorial/issues)
-[![Documentation](https://img.shields.io/badge/docs-complete-brightgreen.svg)](https://github.com/vanhoangkha/aws-mcp-tutorial#readme)
+[![Documentation](https://img.shields.io/badge/docs-complete-brightgreen.svg)](https://vanhoangkha.github.io/aws-mcp-tutorial/)
 [![AWS](https://img.shields.io/badge/AWS-MCP-orange.svg)](https://awslabs.github.io/mcp/)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-blue.svg)](https://claude.ai/code)
 
 > 🚀 **Comprehensive guide for AWS MCP Servers** - Installation, real-world examples, and best practices for integrating AWS services with Claude Code.
+
+## 🌐 Documentation Website
+
+**[📖 Visit the full documentation site →](https://vanhoangkha.github.io/aws-mcp-tutorial/)**
 
 Hướng dẫn toàn diện về cài đặt và sử dụng AWS Model Context Protocol (MCP) Servers cho Claude Code với **real AWS data** và **working examples**.
 
