@@ -68,6 +68,13 @@ claude mcp list
 
 Xem [blog chi tiết](./blog.md) để biết cách cài đặt tất cả các MCP servers cần thiết.
 
+### Tự động cài đặt
+
+```bash
+# Sử dụng installation script
+./install.sh
+```
+
 ## Danh sách MCP Servers
 
 ### 🏗️ Infrastructure as Code (3 servers)
@@ -290,6 +297,25 @@ claude mcp add --transport stdio aws-api-mcp-server -- uvx awslabs.aws-api-mcp-s
 # Clear UV cache
 uv cache clean
 ```
+
+## Examples
+
+### Detailed Tutorials
+
+- **[01-account-setup.md](./examples/01-account-setup.md)** - Complete AWS account và IAM setup
+- **[02-serverless-example.md](./examples/02-serverless-example.md)** - Todo API với Lambda, DynamoDB, Cognito
+- **[03-infrastructure-example.md](./examples/03-infrastructure-example.md)** - Full infrastructure với CDK
+- **[04-real-world-outputs.md](./examples/04-real-world-outputs.md)** - ⭐ **NEW!** Real outputs từ AWS account thực tế
+- **[use-cases.md](./examples/use-cases.md)** - 6 use cases thực tế
+
+### Real-World Examples
+
+File **[04-real-world-outputs.md](./examples/04-real-world-outputs.md)** chứa:
+- ✅ Real Lambda function listings
+- ✅ Actual DynamoDB table data
+- ✅ Live S3 bucket information
+- ✅ Real cost analysis và forecasts
+- ✅ Complete workflow examples với actual outputs
 
 ## Resources
 
