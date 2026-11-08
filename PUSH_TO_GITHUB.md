@@ -21,7 +21,7 @@ Comprehensive guide for AWS MCP Servers - Installation, usage, and best practice
 
 Visibility: ○ Public ● (chọn Public)
 
-⚠️ QUAN TRỌNG: KHÔNG chọn các option sau:
+QUAN TRỌNG: KHÔNG chọn các option sau:
 □ Add a README file (KHÔNG check)
 □ Add .gitignore (KHÔNG check)
 □ Choose a license (KHÔNG check)
@@ -45,7 +45,7 @@ Ví dụ: Nếu profile URL là `https://github.com/johndoe`, username là `john
 
 ### 2.2. Chạy commands sau
 
-**⚠️ Thay YOUR_USERNAME bằng GitHub username thực của bạn**
+**Thay YOUR_USERNAME bằng GitHub username thực của bạn**
 
 ```bash
 # Di chuyển vào thư mục project (nếu chưa ở đó)
@@ -86,11 +86,11 @@ Password: [your-personal-access-token]
    Expiration: 30 days (hoặc tùy chọn)
 
    Scopes (chọn các option sau):
-   ☑ repo (Full control of private repositories)
-     ☑ repo:status
-     ☑ repo_deployment
-     ☑ public_repo
-     ☑ repo:invite
+   repo (Full control of private repositories)
+     repo:status
+     repo_deployment
+     public_repo
+     repo:invite
    ```
 4. Scroll xuống và click **"Generate token"**
 5. **COPY TOKEN NGAY** (chỉ hiển thị 1 lần!)
@@ -131,11 +131,11 @@ https://github.com/YOUR_USERNAME/aws-mcp-tutorial
 ```
 
 Bạn sẽ thấy:
-- ✅ README.md hiển thị đẹp
-- ✅ 10 files
-- ✅ 2 commits
-- ✅ License: MIT
-- ✅ Folder structure: examples/
+- README.md hiển thị đẹp
+- 10 files
+- 2 commits
+- License: MIT
+- Folder structure: examples/
 
 ### 4.2. Kiểm tra bằng command
 
@@ -198,7 +198,7 @@ git remote add origin https://github.com/YOUR_USERNAME/aws-mcp-tutorial.git
 
 **Giải pháp**:
 1. Tạo token mới
-2. Đảm bảo check ☑ repo scope
+2. Đảm bảo check repo scope
 3. Copy và sử dụng token mới
 
 ### Vấn đề 4: Push chậm/timeout
@@ -284,7 +284,7 @@ git remote -v
 ### 1. Add Topics/Tags trên GitHub
 
 1. Truy cập repository
-2. Click ⚙️ (Settings icon) bên cạnh "About"
+2. Click (Settings icon) bên cạnh "About"
 3. Add topics:
    ```
    aws, mcp, claude-code, tutorial, model-context-protocol,
@@ -317,6 +317,6 @@ git push origin v1.0.0
 
 ---
 
-**Ready!** Repository của bạn đã public và có thể share với mọi người! 🚀
+**Ready!** Repository của bạn đã public và có thể share với mọi người!
 
 Share link: `https://github.com/YOUR_USERNAME/aws-mcp-tutorial`

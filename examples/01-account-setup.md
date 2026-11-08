@@ -40,7 +40,7 @@ Root User Password: [Use strong password]
 1. Go to IAM Console: https://console.aws.amazon.com/iam/
 2. Click "Users" → "Add users"
 3. User name: mcp-admin
-4. Access type: ☑ Programmatic access
+4. Access type: Programmatic access
 5. Click "Next: Permissions"
 ```
 
@@ -761,7 +761,7 @@ aws cloudwatch put-metric-alarm \
 
 ---
 
-**Setup complete! You're ready to use AWS MCP Servers with Claude Code.** 🚀
+**Setup complete! You're ready to use AWS MCP Servers with Claude Code.**
 
 For detailed examples, see:
 - `02-serverless-example.md` - Complete serverless app

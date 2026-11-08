@@ -76,11 +76,11 @@ Include:
 
 **Expected outcome**:
 ```
-✅ Created DynamoDB table: products
-✅ Created 5 Lambda functions
-✅ Created API Gateway: product-catalog-api
-✅ Configured CORS
-✅ Deployed to production
+Created DynamoDB table: products
+Created 5 Lambda functions
+Created API Gateway: product-catalog-api
+Configured CORS
+Deployed to production
 
 API Endpoint: https://xxx.execute-api.us-east-1.amazonaws.com/prod
 ```
@@ -164,7 +164,7 @@ Phân tích AWS costs và đưa ra recommendations:
 
 **Expected outcome**:
 ```
-📊 AWS Cost Analysis Report
+AWS Cost Analysis Report
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Current Month Spend: $12,450
@@ -176,7 +176,7 @@ Top 5 Services:
 4. Data Transfer: $1,200 (10%)
 5. Lambda: $950 (8%)
 
-💡 Optimization Opportunities:
+Optimization Opportunities:
 
 1. EC2 Reserved Instances
    - Current: 15 t3.large On-Demand
@@ -229,7 +229,7 @@ Create:
 
 **Expected outcome**:
 ```
-✅ Monitoring Setup Complete
+Monitoring Setup Complete
 
 Dashboard: production-monitoring
 - 12 widgets created
@@ -301,7 +301,7 @@ Include:
 
 **Expected outcome**:
 ```
-✅ EKS Cluster Deployment Complete
+EKS Cluster Deployment Complete
 
 Cluster: production-cluster
 - Status: ACTIVE
@@ -314,20 +314,20 @@ Deployed Microservices:
 1. frontend-service
    - Pods: 3/3 Ready
    - LoadBalancer: http://xxx.us-east-1.elb.amazonaws.com
-   - Health: ✓
+   - Health:
 
 2. backend-api
    - Pods: 5/5 Ready
    - Internal DNS: backend-api.default.svc.cluster.local
-   - Health: ✓
+   - Health:
 
 3. worker-service
    - Pods: 2/2 Ready
-   - Health: ✓
+   - Health:
 
 4. redis-cache
    - Pods: 1/1 Ready
-   - Health: ✓
+   - Health:
 
 Autoscaling:
 - frontend: CPU > 70% → Scale up to 6
@@ -339,7 +339,7 @@ Ingress:
   - / → frontend-service
   - /api → backend-api
 
-kubectl configured: ✓
+kubectl configured:
 Deployment time: ~12 minutes
 ```
 

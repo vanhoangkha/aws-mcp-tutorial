@@ -80,20 +80,20 @@ Create a DynamoDB table named 'users' with userId as partition key
 
 ## What's Next?
 
-### 📚 Read the Documentation
+### Read the Documentation
 
 - **[README.md](./README.md)** - Overview and installation
 - **[blog.md](./blog.md)** - 15-minute deep dive
 - **[Examples](./examples/)** - Real-world tutorials
 
-### 🎯 Try These Examples
+### Try These Examples
 
 1. **[Account Setup](./examples/01-account-setup.md)** - Configure AWS account
 2. **[Serverless App](./examples/02-serverless-example.md)** - Build Todo API
 3. **[Infrastructure](./examples/03-infrastructure-example.md)** - Deploy with CDK
 4. **[Real Outputs](./examples/04-real-world-outputs.md)** - See actual AWS data
 
-### 💡 Common Use Cases
+### Common Use Cases
 
 **Cost Analysis:**
 ```
@@ -151,10 +151,10 @@ aws iam list-attached-user-policies --user-name YOUR_USERNAME
 
 ## Need Help?
 
-- 📖 [Full Documentation](./README.md)
-- 🐛 [Report Issues](https://github.com/vanhoangkha/aws-mcp-tutorial/issues)
-- 💬 [Discussions](https://github.com/vanhoangkha/aws-mcp-tutorial/discussions)
-- 📚 [AWS MCP Docs](https://awslabs.github.io/mcp/)
+- [Full Documentation](./README.md)
+- [Report Issues](https://github.com/vanhoangkha/aws-mcp-tutorial/issues)
+- [Discussions](https://github.com/vanhoangkha/aws-mcp-tutorial/discussions)
+- [AWS MCP Docs](https://awslabs.github.io/mcp/)
 
 ## Quick Reference
 
@@ -175,4 +175,4 @@ uv cache clean
 
 ---
 
-**Ready to build?** Start with `claude` and ask away! 🚀
+**Ready to build?** Start with `claude` and ask away!

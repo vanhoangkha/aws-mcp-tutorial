@@ -95,4 +95,4 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 Feel free to open an issue for questions or discussion.
 
-Thank you for contributing! 🚀
+Thank you for contributing!

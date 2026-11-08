@@ -7,21 +7,21 @@
 [![AWS](https://img.shields.io/badge/AWS-MCP-orange.svg)](https://awslabs.github.io/mcp/)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-blue.svg)](https://claude.ai/code)
 
-> 🚀 **Comprehensive guide for AWS MCP Servers** - Installation, real-world examples, and best practices for integrating AWS services with Claude Code.
+> **Comprehensive guide for AWS MCP Servers** - Installation, real-world examples, and best practices for integrating AWS services with Claude Code.
 
-## 🌐 Documentation Website
+## Documentation Website
 
-**[📖 Visit the full documentation site →](https://vanhoangkha.github.io/aws-mcp-tutorial/)**
+**[Visit the full documentation site →](https://vanhoangkha.github.io/aws-mcp-tutorial/)**
 
 Hướng dẫn toàn diện về cài đặt và sử dụng AWS Model Context Protocol (MCP) Servers cho Claude Code với **real AWS data** và **working examples**.
 
-## 📚 Quick Links
+## Quick Links
 
-- **[⚡ Quick Start](./QUICKSTART.md)** - Get started in 5 minutes!
-- **[❓ FAQ](./FAQ.md)** - 40+ frequently asked questions
-- **[📊 MCP Servers Comparison](./MCP-SERVERS-COMPARISON.md)** - Detailed comparison & decision guide
-- **[📖 Blog](./blog.md)** - 15-minute deep dive
-- **[💻 Examples](./examples/)** - Real-world tutorials with actual AWS data
+- **[Quick Start](./QUICKSTART.md)** - Get started in 5 minutes!
+- **[FAQ](./FAQ.md)** - 40+ frequently asked questions
+- **[MCP Servers Comparison](./MCP-SERVERS-COMPARISON.md)** - Detailed comparison & decision guide
+- **[Blog](./blog.md)** - 15-minute deep dive
+- **[Examples](./examples/)** - Real-world tutorials with actual AWS data
 
 ## Mục lục
 
@@ -98,7 +98,7 @@ Xem [blog chi tiết](./blog.md) để biết cách cài đặt tất cả các 
 
 ## Danh sách MCP Servers
 
-### 🏗️ Infrastructure as Code (3 servers)
+### Infrastructure as Code (3 servers)
 
 | Server | Mô tả | Use Case |
 |--------|-------|----------|
@@ -106,27 +106,27 @@ Xem [blog chi tiết](./blog.md) để biết cách cài đặt tất cả các 
 | **aws-terraform-mcp-server** | Terraform automation | Quản lý infrastructure với Terraform |
 | ~~aws-cloudformation-mcp-server~~ | CloudFormation support | *Hiện chưa khả dụng* |
 
-### ⚡ Serverless & Lambda (2 servers)
+### Serverless & Lambda (2 servers)
 
 | Server | Mô tả | Use Case |
 |--------|-------|----------|
 | **aws-lambda-tool-mcp-server** | Lambda function management | Tạo, deploy và quản lý Lambda functions |
 | **aws-serverless-mcp-server** | Serverless application deployment | Deploy serverless applications hoàn chỉnh |
 
-### 🗄️ Database & Storage (2 servers)
+### Database & Storage (2 servers)
 
 | Server | Mô tả | Use Case |
 |--------|-------|----------|
 | **aws-dynamodb-mcp-server** | DynamoDB operations | CRUD operations, query và scan DynamoDB |
 | **aws-s3-tables-mcp-server** | S3 Tables support | Làm việc với S3 Tables |
 
-### 🤖 AI/ML & Bedrock (1 server)
+### AI/ML & Bedrock (1 server)
 
 | Server | Mô tả | Use Case |
 |--------|-------|----------|
 | **aws-bedrock-kb-retrieval-mcp-server** | Bedrock Knowledge Base retrieval | Retrieve thông tin từ Bedrock Knowledge Bases |
 
-### 💰 Cost & Monitoring (3 servers)
+### Cost & Monitoring (3 servers)
 
 | Server | Mô tả | Use Case |
 |--------|-------|----------|
@@ -134,13 +134,13 @@ Xem [blog chi tiết](./blog.md) để biết cách cài đặt tất cả các 
 | **aws-cloudwatch-mcp-server** | CloudWatch monitoring | Xem metrics, logs và alarms |
 | **aws-cost-explorer-mcp-server** | Cost analysis | Phân tích và tối ưu chi phí AWS |
 
-### 🐳 Container & Kubernetes (1 server)
+### Container & Kubernetes (1 server)
 
 | Server | Mô tả | Use Case |
 |--------|-------|----------|
 | **aws-eks-mcp-server** | EKS cluster management | Quản lý EKS clusters và workloads |
 
-### 🛠️ Core (1 server)
+### Core (1 server)
 
 | Server | Mô tả | Use Case |
 |--------|-------|----------|
@@ -326,17 +326,17 @@ uv cache clean
 - **[01-account-setup.md](./examples/01-account-setup.md)** - Complete AWS account và IAM setup
 - **[02-serverless-example.md](./examples/02-serverless-example.md)** - Todo API với Lambda, DynamoDB, Cognito
 - **[03-infrastructure-example.md](./examples/03-infrastructure-example.md)** - Full infrastructure với CDK
-- **[04-real-world-outputs.md](./examples/04-real-world-outputs.md)** - ⭐ **NEW!** Real outputs từ AWS account thực tế
+- **[04-real-world-outputs.md](./examples/04-real-world-outputs.md)** - **NEW!** Real outputs từ AWS account thực tế
 - **[use-cases.md](./examples/use-cases.md)** - 6 use cases thực tế
 
 ### Real-World Examples
 
 File **[04-real-world-outputs.md](./examples/04-real-world-outputs.md)** chứa:
-- ✅ Real Lambda function listings
-- ✅ Actual DynamoDB table data
-- ✅ Live S3 bucket information
-- ✅ Real cost analysis và forecasts
-- ✅ Complete workflow examples với actual outputs
+- Real Lambda function listings
+- Actual DynamoDB table data
+- Live S3 bucket information
+- Real cost analysis và forecasts
+- Complete workflow examples với actual outputs
 
 ## Resources
 
@@ -355,6 +355,6 @@ This tutorial is licensed under MIT License. AWS MCP Servers are maintained by A
 
 ---
 
-**Built with Claude Code** 🚀
+**Built with Claude Code**
 
 *Last updated: January 2025*

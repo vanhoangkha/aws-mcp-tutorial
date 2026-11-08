@@ -449,7 +449,7 @@ Request/Response models: Define schemas
 **Expected Output:**
 
 ```
-✅ API Gateway created successfully
+API Gateway created successfully
 
 API Details:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -636,7 +636,7 @@ Calculate monthly cost estimation for:
 **Expected Response:**
 
 ```
-💰 Monthly Cost Estimation
+Monthly Cost Estimation
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 API Gateway:
