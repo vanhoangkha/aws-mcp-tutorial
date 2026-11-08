@@ -3,7 +3,7 @@
 # Quick Push Commands for AWS MCP Tutorial
 # Replace YOUR_USERNAME with your actual GitHub username
 
-echo "🚀 AWS MCP Tutorial - GitHub Push Commands"
+echo "AWS MCP Tutorial - GitHub Push Commands"
 echo "=========================================="
 echo ""
 
@@ -11,7 +11,7 @@ echo ""
 read -p "Enter your GitHub username: " GITHUB_USERNAME
 
 if [ -z "$GITHUB_USERNAME" ]; then
-    echo "❌ Username cannot be empty!"
+    echo "Username cannot be empty!"
     exit 1
 fi
 
@@ -24,12 +24,12 @@ cd /home/ubuntu/aws-mcp-tutorial || exit 1
 
 # Check if remote already exists
 if git remote | grep -q "origin"; then
-    echo "⚠️  Remote 'origin' already exists. Removing..."
+    echo "Remote 'origin' already exists. Removing..."
     git remote remove origin
 fi
 
 # Add remote
-echo "📝 Adding remote origin..."
+echo "Adding remote origin..."
 git remote add origin "https://github.com/$GITHUB_USERNAME/aws-mcp-tutorial.git"
 
 # Verify remote
@@ -39,7 +39,7 @@ git remote -v
 echo ""
 
 # Push
-echo "⬆️  Pushing to GitHub..."
+echo "Pushing to GitHub..."
 echo "You will be asked for:"
 echo "  Username: $GITHUB_USERNAME"
 echo "  Password: [Your Personal Access Token]"
@@ -55,9 +55,9 @@ git push -u origin main
 # Check if push was successful
 if [ $? -eq 0 ]; then
     echo ""
-    echo "✅ Successfully pushed to GitHub!"
+    echo "Successfully pushed to GitHub!"
     echo ""
-    echo "🎉 Your repository is now live at:"
+    echo "Your repository is now live at:"
     echo "   https://github.com/$GITHUB_USERNAME/aws-mcp-tutorial"
     echo ""
     echo "Next steps:"
@@ -66,7 +66,7 @@ if [ $? -eq 0 ]; then
     echo "  3. Share with the community!"
 else
     echo ""
-    echo "❌ Push failed!"
+    echo "Push failed!"
     echo ""
     echo "Common issues:"
     echo "  1. Authentication failed - Check your token"

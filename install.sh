@@ -5,7 +5,7 @@
 
 set -e  # Exit on error
 
-echo "🚀 AWS MCP Servers Installation Script"
+echo "AWS MCP Servers Installation Script"
 echo "========================================"
 echo ""
 
@@ -126,7 +126,7 @@ print_info "Checking MCP server health..."
 claude mcp list
 
 echo ""
-echo "✅ Installation complete!"
+echo "Installation complete!"
 echo "=========================="
 echo ""
 echo "Installed MCP servers:"
@@ -148,4 +148,4 @@ echo "  1. Try asking Claude: 'List my EC2 instances'"
 echo "  2. Check the blog.md for detailed use cases"
 echo "  3. Run 'claude mcp list' to see all servers"
 echo ""
-print_success "Happy building with AWS MCP! 🚀"
+print_success "Happy building with AWS MCP!"
