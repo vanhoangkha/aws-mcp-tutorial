@@ -84,17 +84,17 @@ Claude: "Khoảng $0.04/hour..."
 User: "Tạo Lambda function xử lý S3 events"
 
 Claude + MCP:
-- Kiểm tra AWS credentials ✓
-- Generate code với best practices ✓
-- Validate IAM permissions ✓
-- Deploy và test function ✓
-- Return function ARN và test results ✓
+- Kiểm tra AWS credentials
+- Generate code với best practices
+- Validate IAM permissions
+- Deploy và test function
+- Return function ARN và test results
 
 User: "Chi phí EC2 t3.medium là bao nhiêu?"
 Claude + MCP Pricing:
-- Query real-time từ AWS Pricing API ✓
-- "$0.0416/hour ở us-east-1 (On-Demand)" ✓
-- Show pricing cho tất cả regions ✓
+- Query real-time từ AWS Pricing API
+- "$0.0416/hour ở us-east-1 (On-Demand)"
+- Show pricing cho tất cả regions
 ```
 
 ### ROI của AWS MCP Servers
@@ -203,10 +203,10 @@ claude mcp get aws-api-mcp-server
 ```
 
 **Capabilities:**
-- ✅ Comprehensive AWS API support
-- ✅ Command validation trước khi execute
-- ✅ Built-in security controls
-- ✅ Error handling và retry logic
+- Comprehensive AWS API support
+- Command validation trước khi execute
+- Built-in security controls
+- Error handling và retry logic
 
 **Ví dụ sử dụng:**
 ```
@@ -482,7 +482,7 @@ MCP performs:
 
 Output:
 ───────────────────────────────────────
-📚 Retrieved Documents (3 results)
+Retrieved Documents (3 results)
 
 1. Lambda Best Practices - Performance
    ├─ Use provisioned concurrency for consistent latency
@@ -540,7 +540,7 @@ Output:
 │ ap-southeast-1 │ $0.0504 │ $36.79              │
 └─────────────┴────────────┴───────────────────────┘
 
-💡 Savings Options:
+Savings Options:
 - 1-year Reserved: -40% ($18.22/month)
 - 3-year Reserved: -60% ($12.15/month)
 - Spot Instances: Up to -70% (varies)
@@ -566,7 +566,7 @@ claude mcp add --transport stdio aws-cloudwatch-mcp-server \
 Input: "Show Lambda function metrics for last 24h"
 
 MCP retrieves:
-📊 Lambda Metrics (last 24 hours)
+Lambda Metrics (last 24 hours)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Invocations: 45,234
@@ -626,21 +626,21 @@ claude mcp add --transport stdio aws-eks-mcp-server \
 Input: "Tạo EKS cluster với managed node group"
 
 MCP workflow:
-1️⃣ Create VPC với public/private subnets ✓
-2️⃣ Create IAM roles (cluster + node group) ✓
-3️⃣ Create EKS cluster ✓
+1️⃣ Create VPC với public/private subnets
+2️⃣ Create IAM roles (cluster + node group)
+3️⃣ Create EKS cluster
    ├─ Version: 1.28
    ├─ Endpoint: Public + Private
    └─ Logging: API, Audit enabled
-4️⃣ Create managed node group ✓
+4️⃣ Create managed node group
    ├─ Instance type: t3.medium
    ├─ Min/Max/Desired: 2/5/3
    ├─ Disk: 20GB gp3
    └─ AMI: Amazon Linux 2
-5️⃣ Configure kubectl access ✓
-6️⃣ Install AWS Load Balancer Controller ✓
+5️⃣ Configure kubectl access
+6️⃣ Install AWS Load Balancer Controller
 
-Cluster ready! 🎉
+Cluster ready!
 Endpoint: https://XXX.eks.amazonaws.com
 ```
 
@@ -680,11 +680,11 @@ Claude với MCP servers sẽ:
    - Setup logging
 
 Output:
-✅ API Endpoint: https://abc123.execute-api.us-east-1.amazonaws.com/prod
-✅ DynamoDB Table: todos
-✅ Lambda Functions: 5 deployed
-✅ CloudWatch Alarms: Configured
-✅ Total time: ~3 minutes
+API Endpoint: https://abc123.execute-api.us-east-1.amazonaws.com/prod
+DynamoDB Table: todos
+Lambda Functions: 5 deployed
+CloudWatch Alarms: Configured
+Total time: ~3 minutes
 ```
 
 ### 5.2. Infrastructure Migration
@@ -717,7 +717,7 @@ Workflow:
    - Compare costs EC2 vs EKS
    - Optimization recommendations
 
-Migration complete với zero downtime! 🚀
+Migration complete với zero downtime!
 ```
 
 ### 5.3. Cost Optimization Audit
@@ -875,11 +875,11 @@ chmod +x check-mcp-health.sh
 
 AWS MCP Servers mang lại:
 
-✅ **Productivity Boost**: Giảm 75% thời gian deployment
-✅ **Accuracy**: Tăng 35% độ chính xác
-✅ **Cost Savings**: Optimize và tiết kiệm costs
-✅ **Best Practices**: Built-in AWS best practices
-✅ **Real-time Data**: Always up-to-date information
+**Productivity Boost**: Giảm 75% thời gian deployment
+**Accuracy**: Tăng 35% độ chính xác
+**Cost Savings**: Optimize và tiết kiệm costs
+**Best Practices**: Built-in AWS best practices
+**Real-time Data**: Always up-to-date information
 
 ### Quick Start Checklist
 
@@ -901,14 +901,14 @@ AWS MCP Servers mang lại:
 
 ### Resources
 
-- 📚 [AWS MCP Documentation](https://awslabs.github.io/mcp/)
-- 🐙 [GitHub Repository](https://github.com/awslabs/mcp)
-- 💬 [Claude Code Community](https://github.com/anthropics/claude-code)
-- 🎓 [MCP Specification](https://modelcontextprotocol.io/)
+- [AWS MCP Documentation](https://awslabs.github.io/mcp/)
+- [GitHub Repository](https://github.com/awslabs/mcp)
+- [Claude Code Community](https://github.com/anthropics/claude-code)
+- [MCP Specification](https://modelcontextprotocol.io/)
 
 ---
 
-**Happy Building!** 🚀
+**Happy Building!**
 
 *Nếu bạn thấy hướng dẫn này hữu ích, hãy star GitHub repository và share với team của bạn!*
 
@@ -980,4 +980,4 @@ claude mcp add --transport stdio aws-eks-mcp-server -- uvx awslabs.eks-mcp-serve
 
 ---
 
-*Generated with Claude Code + AWS MCP Servers 🤖*
+*Generated with Claude Code + AWS MCP Servers *

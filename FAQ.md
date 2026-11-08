@@ -60,7 +60,7 @@
 claude mcp list
 ```
 
-You should see "✓ Connected" next to each server.
+You should see "Connected" next to each server.
 
 ### Q: Can I use multiple MCP servers at once?
 
@@ -296,33 +296,33 @@ export AWS_PROFILE=production
 ### Q: What AWS services are supported?
 
 **A:** Currently supported:
-- ✅ Lambda
-- ✅ DynamoDB
-- ✅ S3
-- ✅ EC2
-- ✅ RDS
-- ✅ EKS
-- ✅ CloudWatch
-- ✅ Cost Explorer
-- ✅ Pricing API
-- ✅ CDK
-- ✅ Terraform
-- ✅ Bedrock
+- Lambda
+- DynamoDB
+- S3
+- EC2
+- RDS
+- EKS
+- CloudWatch
+- Cost Explorer
+- Pricing API
+- CDK
+- Terraform
+- Bedrock
 
 More services being added regularly!
 
 ### Q: Does this work on Windows?
 
 **A:** Yes! AWS MCP Servers work on:
-- ✅ Linux (Ubuntu, Debian, etc.)
-- ✅ macOS
-- ✅ Windows (with WSL2 recommended)
+- Linux (Ubuntu, Debian, etc.)
+- macOS
+- Windows (with WSL2 recommended)
 
 ### Q: Can I use this with Claude Desktop?
 
 **A:** Not yet. Currently works with:
-- ✅ Claude Code (CLI)
-- ⏳ Claude Desktop (coming soon)
+- Claude Code (CLI)
+- Claude Desktop (coming soon)
 
 ---
 
@@ -399,9 +399,9 @@ We welcome:
 
 ## Still have questions?
 
-- 💬 [Ask in Discussions](https://github.com/vanhoangkha/aws-mcp-tutorial/discussions)
-- 🐛 [Report an Issue](https://github.com/vanhoangkha/aws-mcp-tutorial/issues)
-- 📧 Contact: [Create a support request](https://github.com/vanhoangkha/aws-mcp-tutorial/issues/new)
+- [Ask in Discussions](https://github.com/vanhoangkha/aws-mcp-tutorial/discussions)
+- [Report an Issue](https://github.com/vanhoangkha/aws-mcp-tutorial/issues)
+- Contact: [Create a support request](https://github.com/vanhoangkha/aws-mcp-tutorial/issues/new)
 
 ---
 

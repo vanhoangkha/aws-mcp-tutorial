@@ -12,7 +12,7 @@ title: Home
   <img src="https://img.shields.io/badge/docs-complete-brightgreen.svg" alt="Documentation">
 </p>
 
-> 🚀 **Comprehensive guide for AWS MCP Servers** - Installation, real-world examples, and best practices for integrating AWS services with Claude Code.
+> **Comprehensive guide for AWS MCP Servers** - Installation, real-world examples, and best practices for integrating AWS services with Claude Code.
 
 ## What is AWS MCP?
 
@@ -20,10 +20,10 @@ Model Context Protocol (MCP) is an open protocol that enables seamless integrati
 
 ### Key Benefits
 
-- ✅ **Accurate AWS Operations** - Direct API access eliminates hallucinations
-- ✅ **Latest Documentation** - Always up-to-date AWS APIs and services
-- ✅ **Automated Workflows** - Transform common tasks into AI-powered tools
-- ✅ **Deep Expertise** - Built-in AWS best practices and patterns
+- **Accurate AWS Operations** - Direct API access eliminates hallucinations
+- **Latest Documentation** - Always up-to-date AWS APIs and services
+- **Automated Workflows** - Transform common tasks into AI-powered tools
+- **Deep Expertise** - Built-in AWS best practices and patterns
 
 ## Quick Start
 
@@ -45,37 +45,37 @@ claude mcp list
 
 ## What's Included
 
-### 📚 Comprehensive Documentation
+### Comprehensive Documentation
 
-- **[⚡ Quick Start](./QUICKSTART)** - 5-minute setup guide
-- **[📖 Deep Dive Blog](./blog)** - 15-minute comprehensive walkthrough
-- **[❓ FAQ](./FAQ)** - 40+ frequently asked questions
-- **[📊 MCP Servers Comparison](./MCP-SERVERS-COMPARISON)** - Detailed decision guide
+- **[Quick Start](./QUICKSTART)** - 5-minute setup guide
+- **[Deep Dive Blog](./blog)** - 15-minute comprehensive walkthrough
+- **[FAQ](./FAQ)** - 40+ frequently asked questions
+- **[MCP Servers Comparison](./MCP-SERVERS-COMPARISON)** - Detailed decision guide
 
-### 💻 Real-World Examples
+### Real-World Examples
 
 All examples include actual AWS account outputs:
 
 1. **[Account Setup](./examples/01-account-setup)** - Complete IAM configuration
 2. **[Serverless Todo API](./examples/02-serverless-example)** - Lambda + DynamoDB + Cognito
 3. **[Infrastructure Deployment](./examples/03-infrastructure-example)** - Full CDK stack
-4. **[Real AWS Outputs](./examples/04-real-world-outputs)** - ⭐ Live data from production account
+4. **[Real AWS Outputs](./examples/04-real-world-outputs)** - Live data from production account
 5. **[Use Cases](./examples/use-cases)** - 6 practical scenarios
 
-### 🛠️ Available MCP Servers
+### Available MCP Servers
 
 We support **13 production-ready AWS MCP servers**:
 
 | Category | Servers | Priority |
 |----------|---------|----------|
-| **Core** | aws-api-mcp-server | ⭐⭐⭐⭐⭐ Essential |
-| **Infrastructure** | aws-cdk-mcp-server, aws-terraform-mcp-server | ⭐⭐⭐⭐ High |
-| **Serverless** | aws-lambda-tool, aws-serverless | ⭐⭐⭐⭐ High |
-| **Database** | aws-dynamodb, aws-s3-tables | ⭐⭐⭐⭐ High |
-| **Cost** | aws-pricing, aws-cost-explorer | ⭐⭐⭐⭐⭐ Essential |
-| **Monitoring** | aws-cloudwatch | ⭐⭐⭐ Medium |
-| **Containers** | aws-eks | ⭐⭐⭐ Medium |
-| **AI/ML** | aws-bedrock-kb-retrieval | ⭐⭐⭐ Medium |
+| **Core** | aws-api-mcp-server | Essential |
+| **Infrastructure** | aws-cdk-mcp-server, aws-terraform-mcp-server | High |
+| **Serverless** | aws-lambda-tool, aws-serverless | High |
+| **Database** | aws-dynamodb, aws-s3-tables | High |
+| **Cost** | aws-pricing, aws-cost-explorer | Essential |
+| **Monitoring** | aws-cloudwatch | Medium |
+| **Containers** | aws-eks | Medium |
+| **AI/ML** | aws-bedrock-kb-retrieval | Medium |
 
 [**View Full Comparison →**](./MCP-SERVERS-COMPARISON)
 
@@ -157,21 +157,21 @@ claude mcp add --transport stdio aws-cdk-mcp-server -- uvx awslabs.cdk-mcp-serve
 
 ## Features
 
-✨ **Real AWS Data** - Examples use actual AWS account outputs
-🔒 **Security First** - IAM best practices and least privilege
-💰 **Cost Aware** - Pricing info and cost optimization built-in
-📊 **Production Ready** - Enterprise patterns and monitoring
-🎯 **13 MCP Servers** - All tested and production-ready
-📚 **40+ FAQ Entries** - Comprehensive troubleshooting
-🚀 **Quick Start** - Get running in 5 minutes
+**Real AWS Data** - Examples use actual AWS account outputs
+**Security First** - IAM best practices and least privilege
+**Cost Aware** - Pricing info and cost optimization built-in
+**Production Ready** - Enterprise patterns and monitoring
+**13 MCP Servers** - All tested and production-ready
+**40+ FAQ Entries** - Comprehensive troubleshooting
+**Quick Start** - Get running in 5 minutes
 
 ## Getting Help
 
-- 📖 [Full Documentation](./README)
-- 🐛 [Report Issues](https://github.com/vanhoangkha/aws-mcp-tutorial/issues)
-- 💬 [GitHub Discussions](https://github.com/vanhoangkha/aws-mcp-tutorial/discussions)
-- 🔗 [AWS MCP Official Docs](https://awslabs.github.io/mcp/)
-- 🤖 [Claude Code Docs](https://docs.claude.com/en/docs/claude-code)
+- [Full Documentation](./README)
+- [Report Issues](https://github.com/vanhoangkha/aws-mcp-tutorial/issues)
+- [GitHub Discussions](https://github.com/vanhoangkha/aws-mcp-tutorial/discussions)
+- [AWS MCP Official Docs](https://awslabs.github.io/mcp/)
+- [Claude Code Docs](https://docs.claude.com/en/docs/claude-code)
 
 ## Contributing
 
@@ -184,7 +184,7 @@ This tutorial is licensed under [MIT License](./LICENSE). AWS MCP Servers are ma
 ---
 
 <p align="center">
-  <strong>Built with Claude Code</strong> 🚀
+  <strong>Built with Claude Code</strong>
   <br>
   <em>Last updated: January 2025</em>
 </p>

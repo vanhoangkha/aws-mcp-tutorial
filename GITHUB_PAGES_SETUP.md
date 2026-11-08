@@ -65,10 +65,10 @@ https://github.com/vanhoangkha/aws-mcp-tutorial/actions
 ```
 
 You should see:
-- ✅ "Deploy GitHub Pages" workflow
-- ✅ Green checkmark (success)
-- ⏱️ Yellow circle (running)
-- ❌ Red X (failed - check logs)
+- "Deploy GitHub Pages" workflow
+- Green checkmark (success)
+- Yellow circle (running)
+- Red X (failed - check logs)
 
 ### 2. Test the Site
 
@@ -88,11 +88,11 @@ Expected pages:
 ### 3. Check Navigation
 
 All internal links should work:
-- ✅ Quick Start button
-- ✅ Examples links
-- ✅ FAQ link
-- ✅ Comparison guide
-- ✅ GitHub repository link
+- Quick Start button
+- Examples links
+- FAQ link
+- Comparison guide
+- GitHub repository link
 
 ## Troubleshooting
 
@@ -209,10 +209,10 @@ Included plugins:
 - **jekyll-feed**: RSS feed for blog posts
 
 Your site will be indexed by:
-- ✅ Google
-- ✅ Bing
-- ✅ DuckDuckGo
-- ✅ Other search engines
+- Google
+- Bing
+- DuckDuckGo
+- Other search engines
 
 ## Performance
 
@@ -284,7 +284,7 @@ If you encounter issues:
 
 ---
 
-**Your documentation site is ready!** 🚀
+**Your documentation site is ready!**
 
 Visit: **https://vanhoangkha.github.io/aws-mcp-tutorial/**
 

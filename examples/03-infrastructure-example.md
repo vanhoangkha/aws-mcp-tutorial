@@ -537,7 +537,7 @@ Region: us-east-1
 **Expected Response:**
 
 ```
-💰 Monthly Cost Breakdown
+Monthly Cost Breakdown
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Compute:
@@ -573,7 +573,7 @@ Monitoring:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Total Monthly Cost: ~$489.42
 
-💡 Optimization Opportunities:
+Optimization Opportunities:
 1. Use Reserved Instances (-40%): Save ~$97/month
 2. Use Savings Plans: Save ~$85/month
 3. Single NAT Gateway: Save $65/month

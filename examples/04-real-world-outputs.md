@@ -243,7 +243,7 @@ Show me CPU utilization for instance i-0123456789 for the last 6 hours
 
 **MCP Response:**
 ```
-📊 EC2 Instance Metrics
+EC2 Instance Metrics
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Instance: i-0123456789 (web-server-1)
@@ -261,7 +261,7 @@ Network Traffic:
 ├─ Network Out: 89.3 MB
 └─ Packets/sec: 1,250
 
-Status: ✓ Healthy
+Status: Healthy
 ```
 
 ---
@@ -311,7 +311,7 @@ aws ce get-cost-and-usage \
 
 ### Example Output
 ```
-💰 AWS Cost Breakdown (January 2025)
+AWS Cost Breakdown (January 2025)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Total: $127.45
@@ -324,7 +324,7 @@ By Service:
 ├─ AWS API Gateway:            $8.72 (6.8%)
 └─ Data Transfer:             $0.00 (0.0% - within free tier)
 
-💡 Insights:
+Insights:
 - Lambda is the top cost driver
 - S3 storage costs are moderate
 - Consider DynamoDB on-demand pricing
@@ -340,17 +340,17 @@ Show me cost forecast for next month and suggest optimizations
 
 **MCP Response:**
 ```
-📈 Cost Forecast & Recommendations
+Cost Forecast & Recommendations
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Current Month: $127.45
 Forecasted Next Month: $142.30 (+11.6%)
 
-⚠️ Trending Up:
+Trending Up:
 - Lambda invocations increased 15%
 - S3 storage growing 8% month-over-month
 
-💡 Optimization Opportunities:
+Optimization Opportunities:
 
 1. Lambda Optimization
    Current: 5M invocations @ 256MB
@@ -395,7 +395,7 @@ Create a DynamoDB table named 'products' with:
 
 **MCP Response:**
 ```
-✅ DynamoDB Table Created
+DynamoDB Table Created
 
 Table Details:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -435,7 +435,7 @@ Create Lambda function to query products by category:
 
 **MCP Response:**
 ```
-✅ Lambda Function Created
+Lambda Function Created
 
 Function Details:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -506,7 +506,7 @@ Show me metrics for the Lambda function for the last hour
 
 **MCP Response:**
 ```
-📊 Lambda Function Metrics
+Lambda Function Metrics
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Function: get-products-by-category
 Period: Last 1 hour
@@ -529,7 +529,7 @@ Memory:
 ├─ Average Used: 89 MB
 └─ Max Used: 134 MB
 
-💡 Recommendation: Consider reducing memory to 128MB
+Recommendation: Consider reducing memory to 128MB
    Potential savings: ~40% on compute costs
 ```
 
@@ -542,7 +542,7 @@ Calculate the cost for this Lambda function based on current usage
 
 **MCP Response:**
 ```
-💰 Cost Calculation
+Cost Calculation
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Lambda Function: get-products-by-category
@@ -569,7 +569,7 @@ Compute Cost: ~$1.90
 Request Cost: ~$0.18
 Total: ~$2.08/month
 
-💡 With 128MB memory:
+With 128MB memory:
 Total: ~$1.25/month (40% savings)
 ```
 
@@ -584,11 +584,11 @@ Total: ~$1.25/month (40% savings)
 
 **Active Resources:**
 ```
-✓ Lambda Functions:     5+
-✓ DynamoDB Tables:     10+
-✓ S3 Buckets:          10+
-✓ EC2 Instances:        0 (cost optimized!)
-✓ CloudWatch Logs:     Active
+Lambda Functions: 5+
+DynamoDB Tables: 10+
+S3 Buckets: 10+
+EC2 Instances: 0 (cost optimized!)
+CloudWatch Logs: Active
 ```
 
 **Cost Summary:**
@@ -604,7 +604,7 @@ Primary Costs:
 
 **Architecture Pattern:**
 ```
-Serverless-First ✓
+Serverless-First
 - No EC2 instances running
 - Event-driven with Lambda
 - DynamoDB for data
@@ -649,5 +649,5 @@ claude
 ---
 
 **Updated**: 2025-01-08
-**Real Account Data**: ✓ Verified
-**Working Examples**: ✓ Tested
+**Real Account Data**: Verified
+**Working Examples**: Tested

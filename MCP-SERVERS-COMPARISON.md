@@ -6,14 +6,14 @@ Complete comparison and decision guide for AWS MCP Servers.
 
 | Your Goal | Recommended Servers | Priority |
 |-----------|-------------------|----------|
-| 🚀 Getting Started | aws-api-mcp-server + aws-pricing-mcp-server | **Essential** |
-| 💰 Cost Management | aws-pricing-mcp-server + aws-cost-explorer-mcp-server | High |
-| 🔧 Serverless Development | aws-lambda-tool-mcp-server + aws-dynamodb-mcp-server | High |
-| 🏗️ Infrastructure as Code | aws-cdk-mcp-server OR aws-terraform-mcp-server | High |
-| 📊 Monitoring & Ops | aws-cloudwatch-mcp-server | Medium |
-| 🐳 Containers | aws-eks-mcp-server | Medium |
-| 🤖 AI/ML | aws-bedrock-kb-retrieval-mcp-server | Medium |
-| 📦 Storage | aws-s3-tables-mcp-server | Low |
+| Getting Started | aws-api-mcp-server + aws-pricing-mcp-server | **Essential** |
+| Cost Management | aws-pricing-mcp-server + aws-cost-explorer-mcp-server | High |
+| Serverless Development | aws-lambda-tool-mcp-server + aws-dynamodb-mcp-server | High |
+| Infrastructure as Code | aws-cdk-mcp-server OR aws-terraform-mcp-server | High |
+| Monitoring & Ops | aws-cloudwatch-mcp-server | Medium |
+| Containers | aws-eks-mcp-server | Medium |
+| AI/ML | aws-bedrock-kb-retrieval-mcp-server | Medium |
+| Storage | aws-s3-tables-mcp-server | Low |
 
 ---
 
@@ -21,19 +21,19 @@ Complete comparison and decision guide for AWS MCP Servers.
 
 ### Core & Essential
 
-#### 1. aws-api-mcp-server ⭐ **ESSENTIAL**
+#### 1. aws-api-mcp-server **ESSENTIAL**
 
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | Core AWS API access |
-| **Priority** | ⭐⭐⭐⭐⭐ Essential |
+| **Priority** | Essential |
 | **Use Cases** | - List/describe AWS resources<br>- Execute AWS CLI operations<br>- Cross-service operations |
 | **Pros** | - Comprehensive AWS coverage<br>- Command validation<br>- Security controls<br>- Works with all AWS services |
 | **Cons** | - Generic (no service-specific optimizations) |
 | **Best For** | Everyone |
 | **Install Command** | `claude mcp add --transport stdio aws-api-mcp-server -- uvx awslabs.aws-api-mcp-server@latest` |
 | **Package** | `awslabs.aws-api-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 ---
 
@@ -44,7 +44,7 @@ Complete comparison and decision guide for AWS MCP Servers.
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | AWS CDK infrastructure deployment |
-| **Priority** | ⭐⭐⭐⭐ High (if using CDK) |
+| **Priority** | High (if using CDK) |
 | **Use Cases** | - Generate CDK code<br>- Deploy infrastructure<br>- Manage stacks |
 | **Pros** | - TypeScript/Python support<br>- Best practices built-in<br>- Type safety |
 | **Cons** | - Requires Node.js/Python knowledge<br>- Steeper learning curve |
@@ -52,14 +52,14 @@ Complete comparison and decision guide for AWS MCP Servers.
 | **vs Terraform** | CDK = More programmatic, Terraform = More declarative |
 | **Install Command** | `claude mcp add --transport stdio aws-cdk-mcp-server -- uvx awslabs.cdk-mcp-server@latest` |
 | **Package** | `awslabs.cdk-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 #### 3. aws-terraform-mcp-server
 
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | Terraform infrastructure management |
-| **Priority** | ⭐⭐⭐⭐ High (if using Terraform) |
+| **Priority** | High (if using Terraform) |
 | **Use Cases** | - Generate Terraform configs<br>- Plan/apply changes<br>- State management |
 | **Pros** | - Industry standard<br>- Multi-cloud support<br>- Large community |
 | **Cons** | - HCL syntax<br>- State management complexity |
@@ -67,7 +67,7 @@ Complete comparison and decision guide for AWS MCP Servers.
 | **vs CDK** | Terraform = More portable, CDK = More programmatic |
 | **Install Command** | `claude mcp add --transport stdio aws-terraform-mcp-server -- uvx awslabs.terraform-mcp-server@latest` |
 | **Package** | `awslabs.terraform-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 **CDK vs Terraform - When to use what?**
 
@@ -88,21 +88,21 @@ Complete comparison and decision guide for AWS MCP Servers.
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | Lambda function management |
-| **Priority** | ⭐⭐⭐⭐ High (for serverless) |
+| **Priority** | High (for serverless) |
 | **Use Cases** | - Create/update functions<br>- Configure triggers<br>- Manage versions |
 | **Pros** | - Quick function deployment<br>- Environment variable management<br>- Trigger configuration |
 | **Cons** | - Limited to Lambda |
 | **Best For** | Serverless developers |
 | **Install Command** | `claude mcp add --transport stdio aws-lambda-tool-mcp-server -- uvx awslabs.lambda-tool-mcp-server@latest` |
 | **Package** | `awslabs.lambda-tool-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 #### 5. aws-serverless-mcp-server
 
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | Complete serverless applications |
-| **Priority** | ⭐⭐⭐ Medium |
+| **Priority** | Medium |
 | **Use Cases** | - SAM/Serverless Framework<br>- Multi-function apps<br>- Full stack serverless |
 | **Pros** | - Holistic approach<br>- Multi-service deployment |
 | **Cons** | - Overlaps with Lambda tool<br>- More complex |
@@ -110,7 +110,7 @@ Complete comparison and decision guide for AWS MCP Servers.
 | **vs Lambda Tool** | Serverless = Full app, Lambda Tool = Individual functions |
 | **Install Command** | `claude mcp add --transport stdio aws-serverless-mcp-server -- uvx awslabs.aws-serverless-mcp-server@latest` |
 | **Package** | `awslabs.aws-serverless-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 ---
 
@@ -121,53 +121,53 @@ Complete comparison and decision guide for AWS MCP Servers.
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | DynamoDB operations |
-| **Priority** | ⭐⭐⭐⭐ High (if using DynamoDB) |
+| **Priority** | High (if using DynamoDB) |
 | **Use Cases** | - CRUD operations<br>- Query/Scan<br>- Index management |
 | **Pros** | - Direct table access<br>- Query optimization<br>- Batch operations |
 | **Cons** | - DynamoDB only |
 | **Best For** | NoSQL data access |
 | **Install Command** | `claude mcp add --transport stdio aws-dynamodb-mcp-server -- uvx awslabs.dynamodb-mcp-server@latest` |
 | **Package** | `awslabs.dynamodb-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 #### 7. aws-s3-tables-mcp-server
 
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | S3 Tables operations |
-| **Priority** | ⭐⭐ Low |
+| **Priority** | Low |
 | **Use Cases** | - Iceberg tables<br>- Tabular data in S3 |
 | **Pros** | - Modern table format<br>- ACID transactions |
 | **Cons** | - Niche use case<br>- Newer feature |
 | **Best For** | Data lakes with Iceberg |
 | **Install Command** | `claude mcp add --transport stdio aws-s3-tables-mcp-server -- uvx awslabs.s3-tables-mcp-server@latest` |
 | **Package** | `awslabs.s3-tables-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 ---
 
 ### Cost Management
 
-#### 8. aws-pricing-mcp-server ⭐ **ESSENTIAL**
+#### 8. aws-pricing-mcp-server **ESSENTIAL**
 
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | AWS pricing information |
-| **Priority** | ⭐⭐⭐⭐⭐ Essential |
+| **Priority** | Essential |
 | **Use Cases** | - Get service pricing<br>- Compare regions<br>- Cost estimation |
 | **Pros** | - Real-time pricing<br>- All services<br>- Region comparison |
 | **Cons** | - Read-only |
 | **Best For** | Everyone (cost awareness) |
 | **Install Command** | `claude mcp add --transport stdio aws-pricing-mcp-server -- uvx awslabs.aws-pricing-mcp-server@latest` |
 | **Package** | `awslabs.aws-pricing-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 #### 9. aws-cost-explorer-mcp-server
 
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | Cost analysis and optimization |
-| **Priority** | ⭐⭐⭐⭐ High |
+| **Priority** | High |
 | **Use Cases** | - Cost breakdown<br>- Trend analysis<br>- Budget forecasting |
 | **Pros** | - Actual spending data<br>- Historical analysis<br>- Recommendations |
 | **Cons** | - Requires Cost Explorer API<br>- Slight API costs |
@@ -175,7 +175,7 @@ Complete comparison and decision guide for AWS MCP Servers.
 | **vs Pricing** | Cost Explorer = Actual costs, Pricing = Projected costs |
 | **Install Command** | `claude mcp add --transport stdio aws-cost-explorer-mcp-server -- uvx awslabs.cost-explorer-mcp-server@latest` |
 | **Package** | `awslabs.cost-explorer-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 ---
 
@@ -186,14 +186,14 @@ Complete comparison and decision guide for AWS MCP Servers.
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | CloudWatch monitoring |
-| **Priority** | ⭐⭐⭐ Medium-High |
+| **Priority** | Medium-High |
 | **Use Cases** | - View metrics<br>- Query logs<br>- Create alarms |
 | **Pros** | - Real-time metrics<br>- Log insights<br>- Alarm management |
 | **Cons** | - Can be verbose |
 | **Best For** | Operations/monitoring |
 | **Install Command** | `claude mcp add --transport stdio aws-cloudwatch-mcp-server -- uvx awslabs.cloudwatch-mcp-server@latest` |
 | **Package** | `awslabs.cloudwatch-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 ---
 
@@ -204,14 +204,14 @@ Complete comparison and decision guide for AWS MCP Servers.
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | EKS cluster management |
-| **Priority** | ⭐⭐⭐ Medium (if using K8s) |
+| **Priority** | Medium (if using K8s) |
 | **Use Cases** | - Create clusters<br>- Manage node groups<br>- Deploy workloads |
 | **Pros** | - Full EKS support<br>- Node group management |
 | **Cons** | - K8s knowledge required<br>- Complex |
 | **Best For** | Container orchestration teams |
 | **Install Command** | `claude mcp add --transport stdio aws-eks-mcp-server -- uvx awslabs.eks-mcp-server@latest` |
 | **Package** | `awslabs.eks-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 ---
 
@@ -222,14 +222,14 @@ Complete comparison and decision guide for AWS MCP Servers.
 | Aspect | Details |
 |--------|---------|
 | **Purpose** | Bedrock Knowledge Base retrieval |
-| **Priority** | ⭐⭐⭐ Medium (if using Bedrock) |
+| **Priority** | Medium (if using Bedrock) |
 | **Use Cases** | - RAG applications<br>- Document Q&A<br>- Knowledge retrieval |
 | **Pros** | - Semantic search<br>- Context augmentation |
 | **Cons** | - Requires Bedrock KB setup |
 | **Best For** | AI/ML applications |
 | **Install Command** | `claude mcp add --transport stdio aws-bedrock-kb-retrieval-mcp-server -- uvx awslabs.bedrock-kb-retrieval-mcp-server@latest` |
 | **Package** | `awslabs.bedrock-kb-retrieval-mcp-server` |
-| **Status** | ✅ Stable |
+| **Status** | Stable |
 
 ---
 
@@ -319,16 +319,16 @@ claude mcp add --transport stdio aws-cost-explorer-mcp-server -- uvx awslabs.cos
 
 | Server | Linux | macOS | Windows (WSL) | AWS Regions |
 |--------|-------|-------|---------------|-------------|
-| aws-api-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-pricing-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-cdk-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-terraform-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-lambda-tool-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-dynamodb-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-cloudwatch-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-cost-explorer-mcp-server | ✅ | ✅ | ✅ | All |
-| aws-eks-mcp-server | ✅ | ✅ | ✅ | EKS regions only |
-| aws-bedrock-kb-retrieval | ✅ | ✅ | ✅ | Bedrock regions only |
+| aws-api-mcp-server | Yes | Yes | Yes | All |
+| aws-pricing-mcp-server | Yes | Yes | Yes | All |
+| aws-cdk-mcp-server | Yes | Yes | Yes | All |
+| aws-terraform-mcp-server | Yes | Yes | Yes | All |
+| aws-lambda-tool-mcp-server | Yes | Yes | Yes | All |
+| aws-dynamodb-mcp-server | Yes | Yes | Yes | All |
+| aws-cloudwatch-mcp-server | Yes | Yes | Yes | All |
+| aws-cost-explorer-mcp-server | Yes | Yes | Yes | All |
+| aws-eks-mcp-server | Yes | Yes | Yes | EKS regions only |
+| aws-bedrock-kb-retrieval | Yes | Yes | Yes | Bedrock regions only |
 
 ---
 
